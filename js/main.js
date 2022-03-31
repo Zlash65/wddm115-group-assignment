@@ -19,3 +19,8 @@ setError(username, "Error: username cannot be Empty");
 } else{
      setSuccess(username);
 }
+
+// Password Input
+if (passwordvalue ===""){
+    setError(password, "Error: password cannot be empty")
+}
