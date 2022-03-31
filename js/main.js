@@ -7,3 +7,8 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     checkInputs();
 });
+function checkInputs() {
+    const usernamevalue = username.value.trim();
+    const passwordvalue = password.value.trim();
+    const password2value = password2.value.trim();
+}
