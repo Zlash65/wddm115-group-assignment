@@ -12,3 +12,10 @@ function checkInputs() {
     const passwordvalue = password.value.trim();
     const password2value = password2.value.trim();
 }
+
+// Username inputs
+if (usernamevalue ==="") {
+setError(username, "Error: username cannot be Empty");
+} else{
+     setSuccess(username);
+}
