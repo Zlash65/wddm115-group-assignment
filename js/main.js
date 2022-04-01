@@ -39,6 +39,7 @@ function setError(input, message){
   const formControl = input.parentElement;
   const small = formControl.querySelector("small");
 
+  formControl.classList.remove("form-control", "success");
   formControl.classList.add("form-control", "error");
   small.textContent = message;
 }
@@ -47,6 +48,7 @@ function setSuccess(input) {
   const formControl = input.parentElement;
   const small = formControl.querySelector("small");
 
+  formControl.classList.remove("form-control", "error");
   formControl.classList.add("form-control", "success");
   small.textContent = "";
 }
