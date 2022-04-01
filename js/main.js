@@ -15,21 +15,23 @@ function checkInputs() {
 
   // Username inputs
   if (usernamevalue === "") {
-      setError(username, "Error: username cannot be Empty");
-  } else{
-      setSuccess(username);
+    setError(username, "Error: username cannot be Empty");
+  } else {
+    setSuccess(username);
   }
 
   // Password Input
-  if (passwordvalue === ""){
-      setError(password, "Error: password cannot be empty")
+  if (passwordvalue === "") {
+    setError(password, "Error: password cannot be empty");
+  } else {
+    setSuccess(password);
   }
 
   // Check for password conformation input
-  if (password2value === ""){
-      setError(password2, "Error: password cannot be empty") ;
+  if (password2value =="") {
+    setError(password2, "Error: password cannot be empty");
   } else {
-      setSuccess(password2);
+    setSuccess(password2);
   }
 }
 
