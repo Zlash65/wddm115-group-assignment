@@ -1,6 +1,6 @@
 const form = document.querySelector("form");
-const username = document.getElementsById("username");
-const password = document.getElementsById("password");
+const username = document.getElementById("username");
+const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
 
 form.addEventListener("submit", (e) => {
