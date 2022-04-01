@@ -38,4 +38,7 @@ function checkInputs() {
 function setError(input, message){
   const formControl = input.parentElement;
   const small = formControl.querySelector("small");
+
+  formControl.classList.add("form-control", "error");
+  small.textContent = message;
 }
